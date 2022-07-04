@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'about-us'
+    'products'
+    'order'
+    'FAQ'
+    'footer';
+}
