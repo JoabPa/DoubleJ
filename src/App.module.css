@@ -2,18 +2,22 @@
   box-sizing: border-box;
 }
 
+html,
 body {
-  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  background-color: #f3f3f3;
+  color: #444;
+  line-height: 1.9;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   background-color: white;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    'header'
-    'about-us'
-    'products'
-    'order'
-    'FAQ'
-    'footer';
+.header {
+  height: 100vh;
+  border-bottom: 1px solid #444;
 }

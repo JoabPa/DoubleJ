@@ -1,0 +1,7 @@
+.order {
+  border-bottom: 1px solid #444;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}

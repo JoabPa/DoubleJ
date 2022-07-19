@@ -1,18 +1,24 @@
 import React from 'react';
-import classes from './App.module.css';
 import Footer from './components/Footer';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Products from './components/Products';
+import classes from'./App.module.css';
+import About from './components/About';
+import Order from './components/Order';
+import Faq from './components/Faq';
 
 function App() {
   return (
-    <div className={classes['grid-container']}>
-      <Header/>
-      <div>About us</div>
-      <div>Products</div>
-      <div>Order</div>
-      <div>FAQ</div>
-      <Footer/>
-    </div>
+    <>
+      <header className={classes['header']}>
+        <Navbar />
+        <About />
+      </header>
+      <Products />
+      <Order/>
+      <Faq/>
+      <Footer />
+    </>
   );
 }
 

@@ -1,0 +1,22 @@
+.products {
+  border-bottom: 1px solid #444;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+.products-grid {
+  display: grid;
+  grid-template-areas: 'first second' 'third fourth';
+  grid-gap: 100px;
+}
+
+.card {
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: white;
+  margin: 2rem;
+  height: 200px;
+}
