@@ -4,7 +4,13 @@ import classes from './Order.module.css';
 function Order(props) {
   return (
     <section className={classes['order']}>
-      <p>order</p>
+      <h1>How delivery works</h1>
+      <div>
+
+      </div>
+      <div>
+        
+      </div>
       
     </section>
   );
